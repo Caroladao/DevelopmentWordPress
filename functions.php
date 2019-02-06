@@ -24,7 +24,7 @@
 	function wpb_init_widgets($id){
 		register_sidebar(array(
 			'name' => 'Sidebar',
-			'Id' => 'sidebar',
+			'id' => 'sidebar',
 			'before_widget' => '<div class="sidebar-module">',
 			'after_widget' => '</div>',
 			'before_title' => '<h4>',
