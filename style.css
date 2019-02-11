@@ -105,7 +105,6 @@ h6, .h6 {
 .dropdown-menu{
 	width: 100px;
 	background: #212121;
-
 	color: #fff;
 }
 .dropdown-menu li{
@@ -276,8 +275,7 @@ h6, .h6 {
  }
 
  .comments h3, .comments h2{
- 	color: #fff;
- 	background: #f4f4f4;
+ 	color: black;
  	padding: 5px;
  }
 
@@ -315,4 +313,25 @@ h6, .h6 {
  	padding: 4px;
  	border:#ccc solid 1px;
  	margin-bottom: 15px;
+ }
+ .comment-form input{
+   border-radius: 10px;
+   background: #428bca;
+ }
+ .comment-form input:hover{
+   text-decoration: underline;
+ }
+
+ .post-gallery{
+   background: #fff;
+   color: #fff;
+   padding: 10px;
+   text-align: center;
+   border: .5px solid black;
+   box-shadow: 2px 3px 1px rgba(0,0,0,.5);
+   border-radius: 10px;
+ }
+
+ .post-gallery h2{
+   color: rgb(131, 124, 124);
  }
